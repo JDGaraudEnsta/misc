@@ -14,7 +14,15 @@ Créer un dépot :
     git push
 
     git status
-
+    
+Régler un conflit avant un pull:
+    - Annuler mes modifications et faire confiance à la nouvelle version :
+        git checkout -- <fichier>
+    - Fusionner les modifications
+        git add <fichier>
+        git commit -m "commentaire"
+        git status
+        
 ## vi
 
 Editeur de texte.
