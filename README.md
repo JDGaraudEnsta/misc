@@ -15,6 +15,19 @@ Créer un dépot :
 
     git status
 
+
+## git graphique
+
+Récupérer tkdiff chez JDG :
+
+    # a ajouter au ~/.bashrc
+    export PATH=/home/g/garaud/bin:$PATH
+    # puis en prevision de la suite des TP:
+    export PATH=~/bin:~/.local/bin:$PATH
+
+Copier (ou piocher ce qui est intéressant) `tilde_gitconfig` dans `~/.gitconfig`
+
+
 ## vi
 
 Editeur de texte.
@@ -26,9 +39,13 @@ Le minimum a retenir :
     i    # passe en mode edition
     ESC  # revient en mode "command"
 
+
+
 ## python3
 
-todo
+Pour utiliser des modules qui sont dans un répertoire non usuel:
+
+    export PYTHONPATH=/ce/super/repertoire:$PYTHONPATH
 
 
 ## markdown
