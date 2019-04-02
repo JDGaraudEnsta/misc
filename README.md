@@ -25,7 +25,32 @@ Récupérer tkdiff chez JDG :
     # puis en prevision de la suite des TP:
     export PATH=~/bin:~/.local/bin:$PATH
 
-Copier (ou piocher ce qui est intéressant) `tilde_gitconfig` dans `~/.gitconfig`
+Ajouter les lignes suivantes au fichier `~/.gitconfig` :
+
+```
+[color]
+	ui = true
+[alias]
+lg  = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C
+(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(bold yellow)%d%C(reset)
+ %C(white)%s%C(reset) ' --all
+lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C
+(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(di
+m white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(
+reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d
+%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+co = checkout
+tkdiff = difftool -t tkdiff -y
+meld   = difftool -t meld -y
+
+
+[core]
+    filemode = false
+    editor = vi
+[push]
+	default = simple
+```
 
 
 ## vi
