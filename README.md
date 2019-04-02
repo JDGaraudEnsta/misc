@@ -16,7 +16,7 @@ Créer un dépot :
     git status
 
 
-## git graphique
+### git graphique
 
 Récupérer tkdiff chez JDG :
 
