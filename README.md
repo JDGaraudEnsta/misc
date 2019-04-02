@@ -44,12 +44,9 @@ co = checkout
 tkdiff = difftool -t tkdiff -y
 meld   = difftool -t meld -y
 
-
 [core]
     filemode = false
     editor = vi
-[push]
-	default = simple
 ```
 
 
