@@ -4,6 +4,8 @@
 
 ## git
 
+Cette [cheatsheet](http://files.zeroturnaround.com/pdf/zt_git_cheat_sheet.pdf) est très claire.
+
 Créer un dépot :
 
     git init
@@ -43,7 +45,6 @@ meld   = difftool -t meld -y
     editor = vi
 ```
 
-Cette [cheatsheet ](http://files.zeroturnaround.com/pdf/zt_git_cheat_sheet.pdf) est très claire.
 
 ## vi
 
