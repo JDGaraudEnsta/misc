@@ -70,3 +70,10 @@ Pour utiliser des modules qui sont dans un répertoire non usuel:
 
 (lire ça)[https://guides.github.com/features/mastering-markdown/]
 
+essais de syntaxe: 
+
+TODO list:
+
+- [ ] un item non coché
+- [x] un item coché
+- [x] un autre item coché
