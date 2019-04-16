@@ -76,4 +76,8 @@ TODO list:
 
 - [ ] un item non coché
 - [x] un item coché
-- [x] un autre item coché
+
+TODO list sans tiret :
+
+[ ] un autre item non coché
+[x] un autre item coché
