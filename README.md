@@ -81,3 +81,10 @@ TODO list sans tiret :
 
 [ ] un autre item non coché
 [x] un autre item coché
+
+
+## modèle de développement
+
+git n'est qu'un outil, il ne vous dit pas comment travailler (dans quelle branche faire ses devs et commits)
+Pour tout projet il est important de se donner des guides de développement. 
+Cette page https://nvie.com/posts/a-successful-git-branching-model/ donne un exemple intéressant (devenu un classique) de comment arranger ses branches git.
