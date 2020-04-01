@@ -13,6 +13,7 @@ Créer un dépot :
     git status   # on le fait jamais assez souvent !
     git add README.md
     git commit -m "c'est un debut"
+    git log
     git push
 
     git status
