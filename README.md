@@ -46,6 +46,10 @@ meld   = difftool -t meld -y
     editor = vi
 ```
 
+### pour tout le reste...
+
+Stack Overflow est une mine d'or. 
+
 
 ## vi
 
