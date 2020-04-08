@@ -19,14 +19,9 @@ Créer un dépot :
     git status
 
 
-### git graphique
+### git alias et diff-graphique
 
-Récupérer tkdiff chez JDG :
-
-    # a ajouter au ~/.bashrc
-    export PATH=/home/g/garaud/bin:$PATH
-    # puis en prevision de la suite des TP:
-    export PATH=~/bin:~/.local/bin:$PATH
+Récupérer tkdiff (ou meld, ou kdiff, ...).
 
 Ajouter les lignes suivantes au fichier `~/.gitconfig` :
 
