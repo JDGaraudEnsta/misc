@@ -85,6 +85,7 @@ TODO list sans tiret :
 
 ## modèle de développement
 
-git n'est qu'un outil, il ne vous dit pas comment travailler (dans quelle branche faire ses devs et commits)
+git n'est qu'un outil, il ne vous dit pas comment travailler (dans quelle branche faire ses devs et commits).
 Pour tout projet il est important de se donner des guides de développement. 
 Cette page https://nvie.com/posts/a-successful-git-branching-model/ donne un exemple intéressant (devenu un classique) de comment arranger ses branches git.
+Le tutoriel https://guides.github.com/introduction/flow/ montre une autre façon de faire (qui repose sur les facilités apportées par github).
