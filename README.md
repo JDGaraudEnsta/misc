@@ -11,6 +11,7 @@ Créer un dépot :
     git init
     emacs README.md
     git status   # on le fait jamais assez souvent !
+    git diff     # tkdiff ou meld si on les a configures
     git add README.md
     git commit -m "c'est un debut"
     git log
