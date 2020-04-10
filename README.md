@@ -69,7 +69,7 @@ Pour utiliser des modules qui sont dans un répertoire non usuel:
 
 ## markdown
 
-(lire ça)[https://guides.github.com/features/mastering-markdown/]
+Lire [mastering markdown](https://guides.github.com/features/mastering-markdown/)
 
 essais de syntaxe: 
 
@@ -92,7 +92,7 @@ Tableau :
 | carmin | azur
 
 
-Tableau sans header (https://stackoverflow.com/questions/17536216/create-a-table-without-a-header-in-markdown)
+Tableau sans header [source](https://stackoverflow.com/questions/17536216/create-a-table-without-a-header-in-markdown)
 
 | | | |
 | - | - |- |
@@ -104,6 +104,11 @@ Tableau sans header (https://stackoverflow.com/questions/17536216/create-a-table
 ## modèle de développement
 
 git n'est qu'un outil, il ne vous dit pas comment travailler (dans quelle branche faire ses devs et commits).
+
 Pour tout projet il est important de se donner des guides de développement. 
+
 Cette page https://nvie.com/posts/a-successful-git-branching-model/ donne un exemple intéressant (devenu un classique) de comment arranger ses branches git.
+
 Le tutoriel https://guides.github.com/introduction/flow/ montre une autre façon de faire (qui repose sur les facilités apportées par github).
+
+Quand on travaille seul ou à deux, on peut s'en sortir en ne travaillant sur `master`. 
