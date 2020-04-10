@@ -78,10 +78,27 @@ TODO list:
 - [ ] un item non coché
 - [x] un item coché
 
-TODO list sans tiret :
+TODO list sans tiret (c'est ok sur certains flavors de markdown) :
 
 [ ] un autre item non coché
 [x] un autre item coché
+
+Tableau : 
+
+| col 1  | col 2 |  col 3 |
+| - | - |- |
+| rouge | jaune
+| bleu  | vert | orange
+| carmin | azur
+
+
+Tableau sans header (https://stackoverflow.com/questions/17536216/create-a-table-without-a-header-in-markdown)
+
+| | | |
+| - | - |- |
+| rouge | jaune
+| bleu  | vert | orange
+| carmin | azur
 
 
 ## modèle de développement
