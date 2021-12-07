@@ -22,18 +22,18 @@ Créer un dépot :
 Régler un conflit avant un pull :
 - Annuler mes modifications et faire confiance à la nouvelle version :
 
-    git checkout -- <fichier>
+      git checkout -- <fichier>
   
 - Fusionner les modifications
 
-    git add <fichier>
-    git commit -m "commentaire"
-    git status
+      git add <fichier>
+      git commit -m "commentaire"
+      git status
         
 
-- log d'une branche depuis sa création
+- log d'une branche [depuis sa création](https://stackoverflow.com/a/24769534/7212665):
 
-    git log --oneline master..dev/mybranch
+      git log --oneline master..dev/mybranch
 
 
 ### git alias et diff-graphique
