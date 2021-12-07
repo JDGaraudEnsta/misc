@@ -31,6 +31,9 @@ Régler un conflit avant un pull :
     git status
         
 
+- log d'une branche depuis sa création
+
+    git log --oneline master..dev/mybranch
 
 
 ### git alias et diff-graphique
