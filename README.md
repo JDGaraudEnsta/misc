@@ -1,7 +1,5 @@
 # misc
 
-# mon pense bete IN104
-
 ## git
 
 Cette [cheatsheet](http://files.zeroturnaround.com/pdf/zt_git_cheat_sheet.pdf) est très claire.
