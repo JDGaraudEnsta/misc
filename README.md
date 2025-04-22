@@ -20,7 +20,7 @@ Créer un dépot :
 Régler un conflit avant un pull :
 - Annuler mes modifications et faire confiance à la nouvelle version :
 
-      git checkout -- <fichier>
+      git restore -- <fichier>
   
 - Fusionner les modifications
 
